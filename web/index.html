@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Chat</title>
+
+    <script src="js/angular/angular.min.js" onload="loaded=1" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css" type="text/css"/>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery-3.1.0.min.js" onload="loaded=1" type="text/javascript"></script>
+</head>
+<body>
+<div ng-controller="NameController">
+    <form action="index.html">
+        <div class="nameBlock" id="nameInputDiv">
+            <div class="well">
+                <div class="row rowName">
+                    <div class="col-xs-4">
+                        <label class="nameLabel"> Enter your name: </label>
+                    </div>
+                    <div class="col-xs-7" ng-model="Name">
+                        <input type="text" class="form-control inputName" id="nameInput" ng-model="name"><br>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-default" id="connect" ng-click="connect()">Connect
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="nameDiv" id="nameListDiv">
+
+
+</div>
+
+</body>
+</html>

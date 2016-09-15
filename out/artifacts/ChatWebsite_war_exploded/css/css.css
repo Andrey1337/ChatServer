@@ -1,0 +1,25 @@
+.nameBlock {
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 18px;
+    width: 550px;
+}
+
+.rowName {
+    margin-bottom: -20px;
+}
+
+.nameLabel {
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.inputName {
+    width: 340px;
+    margin-left: -14px;
+    margin-bottom: -5px;
+    font-size: 16px;
+}
+
