@@ -23,3 +23,41 @@
     font-size: 16px;
 }
 
+.nameListDiv {
+    visibility: visible;
+    margin-left: 10%;
+    width: 200px;
+    margin-right: 14%;
+    margin-top: 1%;
+    float: left;
+}
+
+.onlineP {
+    text-align: center;
+    margin-left: -40px;
+    font-size: 19px;
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    text-decoration: underline;
+}
+
+.chatDiv {
+    visibility: visible;
+    width: 500px;
+    height: 500px;
+    margin-top: 1%;
+    float: left;
+    background-color: #f2f2f2;
+}
+
+.chatBlockP {
+    background-color: #d9d9d9;
+    border-radius: 3px;
+    width: 500px;
+    font-size: 20px;
+    margin-left: -20px;
+    height: 40px;
+    margin-top: -20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    border: solid #cccccc 1px;
+}

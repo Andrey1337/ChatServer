@@ -13,7 +13,7 @@
 <body>
 <div ng-controller="NameController">
     <form action="index.html">
-        <div class="nameBlock" id="nameDiv">
+        <div class="nameBlock" id="nameInputDiv">
             <div class="well">
                 <div class="row rowName">
                     <div class="col-xs-4">
@@ -29,6 +29,25 @@
         </div>
     </form>
 </div>
+
+<br/>
+
+<div>
+    <div class="nameListDiv well" id="nameListDiv"  ng-controller="NameListController">
+        <p class="onlineP">Users:</p>
+        <li ng-repeat="user in users">
+            {{ user.name }}
+        </li>
+    </div>
+
+    <div class="chatDiv well" ng-controller="ChatController">
+        <p class="chatBlockP">
+            Chat
+        </p>
+    </div>
+</div>
+
+
 
 </body>
 </html>

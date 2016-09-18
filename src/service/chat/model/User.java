@@ -9,7 +9,7 @@ public class User {
 
     public boolean isUserValid()
     {
-        return (this.name.length() != 0);
+        return (this.name.length() != 0 && this.name.length() < 10 );
     }
 
     public String getName() {

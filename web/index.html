@@ -30,10 +30,24 @@
     </form>
 </div>
 
-<div class="nameDiv" id="nameListDiv">
+<br/>
 
+<div>
+    <div class="nameListDiv well" id="nameListDiv"  ng-controller="NameListController">
+        <p class="onlineP">Users:</p>
+        <li ng-repeat="user in users">
+            {{ user.name }}
+        </li>
+    </div>
 
+    <div class="chatDiv well" ng-controller="ChatController">
+        <p class="chatBlockP">
+            Chat
+        </p>
+    </div>
 </div>
+
+
 
 </body>
 </html>
